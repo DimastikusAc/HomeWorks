@@ -15,3 +15,4 @@ for (let i = 1; i <= N; i++) {
    tree += "\n";
 }
 console.log(tree);
+console.log("Hello World");
