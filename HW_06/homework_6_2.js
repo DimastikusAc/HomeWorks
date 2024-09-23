@@ -1,6 +1,6 @@
 function padString(str, len, symbol, toLeft = false) {
    
-    if (str.length - 1 > len) {
+    if (str.length >= len) {
        return str;
     }
     let sym = len - str.length;
