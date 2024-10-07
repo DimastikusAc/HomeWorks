@@ -4,7 +4,7 @@ function isPrime (numbers) {
     }
 
     for (let i = 2; i < numbers; i++) {
-      if (numbers % i === 0 && numbers > i) {
+      if (numbers % i === 0) {
         return false;
           
       }
